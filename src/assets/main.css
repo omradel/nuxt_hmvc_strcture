@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Cairo", serif;
+  font-weight: 400;
+}
+
+htm,
+body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.v-toolbar__content {
+  overflow: visible !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.carousel__pagination-button::after {
+  display: block;
+  content: "";
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #c0bfbf !important;
+}
+
+.carousel__pagination-button--active::after {
+  background-color: #3e7e41 !important;
+  width: 20px !important;
+  border-radius: 10px !important;
+}
+
+.carousel__pagination {
+  bottom: -35px !important;
+}
+
+@media (min-width: 992px) {
+  .carousel__prev {
+    left: -54px !important;
+  }
+
+  .carousel__next {
+    right: -54px !important;
+  }
+}
+
+.v-navigation-drawer__scrim {
+  position: fixed !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+.donate_button {
+  img {
+    filter: brightness(4);
+  }
+  .custom-border-radius {
+    border-top-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+  }
+
+  .v-btn--stacked.v-btn--size-x-small {
+    max-width: 45px;
+    min-width: 45px;
+  }
+}
+
+.all-campaigns,
+.comments {
+  .v-pagination {
+    direction: ltr;
+
+    .v-btn {
+      height: 33px;
+      width: 33px;
+      border-radius: 8px;
+    }
+
+    .v-pagination__item--is-active .v-btn__overlay {
+      opacity: 0;
+    }
+
+    [aria-current="true"] {
+      border: 1px solid green;
+      background-color: transparent;
+    }
+
+    [aria-current="false"] {
+      border: 1px solid #dee2e6;
+    }
+
+    .v-pagination__prev,
+    .v-pagination__next {
+      .v-btn {
+        background-color: #dee2e6;
+      }
+    }
+  }
+}
+
+[dir="rtl"] .subscribers,
+[dir="rtl"] .view_details,
+[dir="rtl"] .doners,
+[dir="rtl"] .current_campaign {
+  .v-progress-linear__determinate {
+    right: 0 !important;
+    left: auto;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+}
+
+[dir="ltr"] .subscribers,
+[dir="ltr"] .view_details,
+[dir="ltr"] .doners,
+[dir="ltr"] .current_campaign {
+  .v-progress-linear__determinate {
+    left: 0 !important;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+[dir="rtl"] .checkbox {
+  direction: rtl;
+}
+
+.dialog {
+  &::backdrop {
+    background-color: #0a0a0a67;
+    backdrop-filter: blur(2px);
+  }
+}
+
+.v-input__details {
+  display: none !important;
+}
+
+.custom-tooltip .v-overlay__content {
+  background-color: #e8fde8 !important;
+  color: #000 !important;
+}
+
+.faqs {
+  .v-expansion-panels {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
+
+  .v-expansion-panel {
+    border-radius: 8px !important;
+  }
+}
+
+.view_details {
+  .v-progress-linear {
+    height: 13px !important;
+  }
+
+  .v-progress-linear__background,
+  .v-progress-linear__buffer {
+    background-color: #fff;
+    opacity: 1;
+  }
+
+  .v-progress-linear__determinate {
+    background-color: #3e7e41;
+    border-radius: 5px;
+  }
+}
+
+.custom-datepicker .dp__input {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+#nprogress {
+  .bar {
+    background: #3e7e41 !important;
+  }
+
+  .peg {
+    box-shadow: 0 0 10px #3e7e41, 0 0 5px #3e7e41 !important;
+  }
+}
+
+.register_form {
+  .vti__dropdown {
+    padding: 14px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+  .vue-tel-input {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+
+  .vue-tel-input:focus-within {
+    box-shadow: none;
+    border-color: #e0e0e0;
+  }
+
+  .vti__dropdown-list.below {
+    top: 50px;
+  }
+}
+
+[dir="rtl"] .register_form {
+  .vti__dropdown-list {
+    left: -321px;
+  }
+}
+
+.apexcharts-toolbar {
+  svg {
+    fill: green !important;
+  }
+}
+
+.my-custom-btn {
+  color: #fff !important;
+}
+
+.swal2-image {
+  object-fit: cover !important;
+}

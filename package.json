@@ -1,0 +1,54 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/i18n": "^9.1.1",
+    "@pinia/nuxt": "^0.9.0",
+    "@stripe/stripe-js": "^5.4.0",
+    "@vee-validate/i18n": "^4.15.0",
+    "@vee-validate/rules": "^4.15.0",
+    "@vee-validate/yup": "^4.15.0",
+    "@vuepic/vue-datepicker": "^11.0.1",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "nprogress": "^0.2.0",
+    "nuxt": "^3.15.2",
+    "pinia": "^2.3.0",
+    "sweetalert2": "^11.15.10",
+    "vee-validate": "^4.15.0",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "latest",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "latest",
+    "vue-tel-input": "^9.3.0",
+    "vue3-apexcharts": "^1.8.0",
+    "vue3-carousel": "^0.11.0",
+    "vuetify": "^3.7.6"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/nprogress": "^0.2.3",
+    "@types/vue-tel-input": "^2.1.1",
+    "autoprefixer": "^10.4.20",
+    "fs": "0.0.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

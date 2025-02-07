@@ -1,0 +1,74 @@
+{
+  "banner_title": "Your donations make a difference. Participate in our challenge today!",
+  "banner_desc": "Create your fundraising page, set your goal, and inspire others to donate!",
+  "campaign": "Campaign",
+  "funded": "Funded",
+  "doners": "Doners",
+  "raised": "Raised",
+
+  "ramadan_challenge": "Ramadan Chalenges",
+  "feed_familly": "Feed A Family For Iftar",
+  "card_desc": "Join our Ramadan challenge to provide iftar meals for families in need. Every $50 feeds a family for a day.",
+  "honor_company": "Honor company",
+
+  "contributing": "Contributing with Ramadan Challenge!",
+  "contributing_desc": "Help families in need experience a blessed Ramadan.",
+
+  "partners": "Trusted by our partners",
+
+  "heroes": "Meet Our Ramadan Challenge Heroes",
+  "first_donor": "First Doner",
+  "second_donor": "Second Doner",
+  "third_donor": "Third Doner",
+  "heros_desc": "Thank you for your extraordinary generosity and commitment to making a difference.",
+
+  "campaigns": "Other Platform Campaigns",
+
+  "famouses": "Trusted by those you trust",
+
+  "success_stories": "Success Stories",
+  "stories_title": "Your Contribution, Real Impact",
+  "see_more": "See more stories",
+  "stories_desc": "Our heroes join hands to fund meals, build shelters, and support education, driven by the shared goal of spreading kindness. This year, we invite you to be part of this journey, turning small gestures into impactful change. By supporting a Ramadan challenge, you’re not only helping achieve a community goal but also creating lasting memories of giving during this blessed month  See more.",
+
+  "ready": "Ready to Make a Difference This Ramadan.",
+  "ready_desc": "Your contributions create change. Let’s reach our goals together.",
+
+  "latest_blogs": "Latest Blogs",
+
+  "start_banner_title": "Create a Challenge That Inspires Change",
+  "start_banner_desc": "Turn your vision into reality. Start your Ramadan Challenge today to empower communities and make an impact",
+
+  "name": "Name",
+  "goal": "Goal",
+  "content": "Content",
+  "name_ar": "name in arabic",
+  "name_en": "name in engish",
+  "goal_ar": "goal in arabic",
+  "goal_en": "goal in english",
+  "content_ar": "content in arabic",
+  "content_en": "content in english",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "avilable_days": "Avilable Days",
+  "upload_image": "Upload Image",
+  "choose_file": "Choose File",
+  "no_file": "No file choosen",
+  "video_url": "Video Url",
+  "amount": "Amount",
+  "currency": "Currency",
+  "amount_placeholder": "Enter the amount you aim to raise (e.g., 5,000)",
+  "curncy_placeholder": "(e.g., $5,000)",
+  "status": "Status",
+  "status_placeholder": "(e.g.,Active)",
+  "launch_campaign": "Launch Campaign",
+  "english": "English",
+  "active": "Active",
+  "deactive": "Deactive",
+
+  "donor": "Donor",
+  "donation_amount": "Donation Amount",
+  "donation_time": "Time",
+  "donation_campaign": "Campaign",
+  "mins_go": "mins ago"
+}
